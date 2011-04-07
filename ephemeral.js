@@ -33,7 +33,7 @@ function newline() {
 		var nl = $('<div></div>');
 		nl.append(newText);
 		$('#before').append(nl);
-		newText.fadeTo(5000, 0).slideUp(2000);
+		newText.fadeTo(10000, 0).slideUp(2000);
 
 		now.val('');
 		
